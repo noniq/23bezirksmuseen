@@ -118,6 +118,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  haml
   middleman (>= 4.0.0)
   middleman-livereload
   tzinfo-data

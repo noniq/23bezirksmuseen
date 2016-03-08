@@ -1,0 +1,41 @@
+.district-shape
+  fill: rgba(255, 0, 0, 0.3)
+  stroke: #fff
+  stroke-width: 2
+  transition: fill 0.05s
+
+.district-nr
+  font: bold 20px sans-serif
+  text-anchor: middle
+  fill: rgba(0, 0, 0, 0.6)
+  transition: all 0.1s
+
+  tspan
+    baseline-shift: 0
+    transition: baseline-shift 0.1s
+
+.district-link
+  &:focus
+    outline: none
+
+  &:hover, &:focus
+    .district-shape
+      fill: rgba(255, 0, 0, 0.5)
+
+    .district-nr
+      fill: rgba(0, 0, 0, 1)
+      font-size: 28px
+
+      tspan
+        baseline-shift: -3px
+
+  &:target
+    .district-shape
+      fill: rgba(255, 0, 0, 1)
+
+    .district-nr
+      fill: rgba(0, 0, 0, 1)
+      font-size: 28px
+
+      tspan
+        baseline-shift: -3px
