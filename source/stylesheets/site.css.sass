@@ -1,4 +1,18 @@
 @charset "utf-8"
 @import "normalize"
 
+@import "black-tie"
 @import "wienkarte"
+
+.karte, .content
+  box-sizing: border-box
+  width: 50%
+  padding: 24px
+  float: left
+
+
+.bezirksmuseum
+  display: none
+
+.bezirksmuseum:target
+  display: block

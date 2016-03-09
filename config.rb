@@ -23,6 +23,12 @@ configure :development do
   activate :livereload
 end
 
+activate :blog do |blog|
+  blog.sources = "bm-{nr}.html"
+end
+
+Time.zone = "Vienna"
+
 ###
 # Helpers
 ###

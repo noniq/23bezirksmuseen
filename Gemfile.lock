@@ -53,6 +53,10 @@ GEM
       middleman-cli (= 4.1.2)
       middleman-core (= 4.1.2)
       sass (>= 3.4.0, < 4.0)
+    middleman-blog (4.0.0)
+      addressable (~> 2.4.0)
+      middleman-core (>= 4.0.0)
+      tzinfo (>= 0.3.0)
     middleman-cli (4.1.2)
       thor (>= 0.17.0, < 2.0)
     middleman-core (4.1.2)
@@ -120,6 +124,7 @@ PLATFORMS
 DEPENDENCIES
   haml
   middleman (>= 4.0.0)
+  middleman-blog
   middleman-livereload
   tzinfo-data
   wdm (~> 0.1.0)
