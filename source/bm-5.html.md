@@ -7,5 +7,5 @@ wappen: 5
 # Görings modischer Bernsteintresor
 
 Zugegeben, groß ist das Bezirksmuseum von Margareten nun wirklich nicht. Was nicht
-heißt, dass es nicht dem alten Kodex der Bezirksmuseen ein, zwei Kuriositäten für den
-Besucher auf Lager hat. 
+heißt, dass es nicht dem alten Kodex der Bezirksmuseen hält und ein, zwei Kuriositäten für den
+Besucher auf Lager hat.
