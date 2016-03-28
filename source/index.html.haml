@@ -1,15 +1,7 @@
 ---
-title: Welcome to Middleman
+title: 23 Bezirksmuseen … in circa 24 Wochen
 ---
 
-- blog.articles.each do |article|
-  %section.bezirksmuseum(id="bezirk-#{article.data.nr}")
-    %h2= article.title
-    %p.date Besucht am #{article.date.strftime("%d.%m.%Y")}.
-    %p.wappen(title="#{article.data.wappen} von 5 Bezirkswappen")
-      - article.data.wappen.times do
-        %i.bts.bt-shield
-      - (5 - article.data.wappen).times do
-        %i.btl.bt-shield
-
-    = article.body
+%ul
+  - blog.articles.reverse.each do |article|
+    %li= link_to article.title, article.url + "#bezirk-#{article.data.nr}"

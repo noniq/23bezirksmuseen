@@ -25,6 +25,7 @@ end
 
 activate :blog do |blog|
   blog.sources = "bm-{nr}.html"
+  blog.permalink = "bm-{nr}.html"
 end
 
 Time.zone = "Vienna"
