@@ -1,10 +1,11 @@
-$header-bg-col: #a6121f
-$intro-bg-col: #f2e7dc
-$footer-bg-col: #59080f
+$header-bg-col: #D13129
+$intro-bg-col: #C3BBBA
+$footer-bg-col: #383133
 
-$map-district-col: #a6918a
+$map-district-col: #C3BBBA
 $map-district-col-hover:#69080f
-$map-district-col-current: #a6121f
+$map-district-col-current: #D13129
+
 
 $content-max-width: 960px
 
@@ -27,7 +28,7 @@ body
 #header
   background: $header-bg-col
   color: #fff
-  padding: 2rem 1rem 2rem
+  padding: 1.6rem 1rem 2rem
   h1
     font-size: 3rem
     line-height: 1
@@ -41,8 +42,12 @@ body
       margin-top: 1.5rem
       font-style: italic
 
+#header-img
+  height: 30vw
+  background: url("/images/header.jpg") no-repeat 50% 25%/cover $intro-bg-col
+
 #intro
-  background: $intro-bg-col
+  background:  $intro-bg-col
   padding: 2rem 0
   font-size: 1.3333rem
   font-weight: 100
@@ -62,6 +67,7 @@ body
   flex-direction: row
   flex-wrap: wrap
   justify-content: space-between
+  align-items: flex-start
 
 #karte, #content
   box-sizing: border-box
