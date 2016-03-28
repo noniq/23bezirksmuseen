@@ -2,18 +2,14 @@
 title: Welcome to Middleman
 ---
 
-.karte
-  = partial "wienkarte"
+- blog.articles.each do |article|
+  %section.bezirksmuseum(id="bezirk-#{article.data.nr}")
+    %h2= article.title
+    %p.date Besucht am #{article.date.strftime("%d.%m.%Y")}.
+    %p.wappen(title="#{article.data.wappen} von 5 Bezirkswappen")
+      - article.data.wappen.times do
+        %i.bts.bt-shield
+      - (5 - article.data.wappen).times do
+        %i.btl.bt-shield
 
-.content
-  - blog.articles.each do |article|
-    %section.bezirksmuseum(id="bezirk-#{article.data.nr}")
-      %h2= article.title
-      %p.date Besucht am #{article.date.strftime("%d.%m.%Y")}.
-      %p.wappen(title="#{article.data.wappen} von 5 Bezirkswappen")
-        - article.data.wappen.times do
-          %i.bts.bt-shield
-        - (5 - article.data.wappen).times do
-          %i.btl.bt-shield
-
-      = article.body
+    = article.body

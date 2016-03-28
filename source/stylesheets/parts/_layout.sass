@@ -1,0 +1,112 @@
+$content-max-width: 960px
+
+html
+  font-size: 16px
+
+@media(max-width:480px)
+  html
+    font-size: 14px
+
+body
+  box-sizing: border-box
+  min-height: 100vh
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  font-size: 16px
+  font-family: adelle, Georgia, sans-serif
+
+#header
+  background: #a6121f
+  color: #fff
+  padding: 2rem 1rem 2rem
+  h1
+    font-size: 3rem
+    line-height: 1
+    font-weight: normal
+    max-width: $content-max-width
+    margin: auto
+    small
+      float: right
+      font-size: 1.25rem
+      line-height: 1
+      margin-top: 1.5rem
+      font-style: italic
+
+#intro
+  background: #f2e7dc
+  padding: 2rem 0
+  font-size: 1.3333rem
+  font-weight: 100
+  line-height: 1.6667
+  p
+    padding: 0 1rem
+    max-width: $content-max-width
+    margin: 0 auto
+
+#main
+  width: 100%
+  padding: 2rem 0 0
+  max-width: $content-max-width
+  align-self: center
+  flex-grow: 1
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: space-between
+
+#karte, #content
+  box-sizing: border-box
+  padding: 0 1rem 2rem
+
+#karte
+  width: 40%
+
+#content
+  width: 60%
+
+@media(max-width: 720px)
+  #main
+    justify-content: center
+  #karte, #content
+    width: 100%
+  #karte
+    max-width: 480px
+
+#footer
+  background: #59080f
+  padding: 2rem 0 0
+  color: rgba(255, 255, 255, 0.75)
+  margin-top: 2rem
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+
+#footer-text, #contact
+  padding: 0 1rem 2rem
+  box-sizing: border-box
+  margin: 0
+  width: 50%
+  max-width: calc(#{$content-max-width / 2} + 2rem)
+  font-weight: 100
+  font-size: 1em
+  line-height: 1.5
+
+#contact
+  text-align: right
+  font-style: normal
+  a
+    display: inline-block
+    color: rgba(255, 255, 255, 0.75)
+    text-decoration: none
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 3px, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4) 3px, rgba(255, 255, 255, 0) 4px)
+    transition: all 0.1s
+    &:hover
+      background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 3px, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.7) 3px, rgba(255, 255, 255, 0) 4px)
+      color: rgba(255, 255, 255, 1)
+
+@media(max-width: 720px)
+  #footer-text, #contact
+    width: 100%
+    max-width: none
+    text-align: center

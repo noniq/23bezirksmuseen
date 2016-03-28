@@ -5,14 +5,45 @@
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0" name="viewport">
 
-    <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Middleman" %></title>
 
     <%= stylesheet_link_tag :site %>
     <%= javascript_include_tag :zepto, :all %>
+    <script src="https://use.typekit.net/ozs7pka.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
   </head>
 
   <body class="<%= page_classes %>">
-    <%= yield %>
+    <header id="header">
+      <h1>
+        23 Bezirks&shy;museen
+        <small class="subtitle">… in etwa 24 Wochen</small>
+      </h1>
+    </header>
+    <section id="intro">
+      <%= partial "intro" %>
+    </section>
+    <main id="main">
+      <aside id="karte">
+        <%= partial "wienkarte" %>
+      </aside>
+      <section id="content">
+        <article>
+          <%= yield %>
+        </article>
+      </section>
+    </main>
+    <footer id="footer">
+      <p id="footer-text">
+        Die Bezirksmuseen wurden besucht von Michael Orac und Stefan Daschek.
+        Wir freuen uns über Feedback.
+      </p>
+      <address id="contact">
+        <a href="mailto:michaelorac@gmail.com"><i class="btm bt-envelope bt-sm"></i> michaelorac@gmail.com</a> /
+        <a href="https://twitter.com/GrandHuit/"><i class="fab fab-twitter bt-sm"></i> GrandHuit</a><br>
+        <a href="mailto:stefan@daschek.net"><i class="btm bt-envelope bt-sm"></i> stefan@daschek.net</a> /
+        <a href="https://twitter.com/noniq/"><i class="fab fab-twitter bt-sm"></i> noniq</a>
+      </address>
+    </footer>
   </body>
 </html>
