@@ -16,17 +16,16 @@
   <body class="<%= page_classes %>">
     <header id="header">
       <h1>
-        <a href="/">23 Bezirks&shy;museen</a>
+        <a href="/">23 Bezirks&shy;museen</a><br>
         <small class="subtitle">… in circa 24 Wochen</small>
       </h1>
     </header>
-    <div id="header-img"></div>
     <main id="main">
+      <% if current_article %>
       <aside id="karte">
         <%= partial "wienkarte" %>
       </aside>
       <section id="content">
-        <% if current_article %>
           <article>
             <%= partial "article", locals: {article: current_article} %>
           </article>

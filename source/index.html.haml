@@ -5,6 +5,8 @@ title: 23 Bezirksmuseen … in circa 24 Wochen
 %section#intro
   = partial "intro"
 
+= partial "wienkarte"
+
 %ul
   - blog.articles.reverse.each do |article|
     %li= link_to article.title, article.url + "#bezirk-#{article.data.nr}"

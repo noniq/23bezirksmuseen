@@ -25,31 +25,49 @@ body
   font-size: 16px
   font-family: adelle, Georgia, sans-serif
 
-#header
-  background: $header-bg-col
-  color: #fff
-  padding: 1.6rem 1rem 2rem
+.index #header
+  height: 40vw
+  background: url("/images/header.jpg") no-repeat 50% 25%/cover $intro-bg-col
+  position: relative
+
   h1
-    font-size: 3rem
-    line-height: 1
+    position: absolute
+    padding: 0
+    margin: 0
+    bottom: 1rem
+    left: 0
+    right: 0
+    color: #fff
     font-weight: normal
-    max-width: $content-max-width
-    margin: auto
+    a, small
+      background: rgba(0, 0, 0, 0.6)
+      padding: 0 1rem 0 calc((100% - #{$content-max-width}) / 2 + 1rem)
+      display: inline-block
+      line-height: 1.25
+
     a
+      background: rgba(0, 0, 0, 0.6)
       color: inherit
       text-decoration: none
+      font-size: 3.5rem
       &:hover
         text-decoration: underline
     small
-      float: right
+      line-height: 1.8
       font-size: 1.25rem
-      line-height: 1
-      margin-top: 1.5rem
       font-style: italic
 
-#header-img
-  height: 30vw
-  background: url("/images/header.jpg") no-repeat 50% 25%/cover $intro-bg-col
+@media(max-width: #{$content-max-width})
+  .index #header h1
+    a, small
+      padding-left: 1rem
+
+@media(max-width: 720px)
+  .index #header h1
+    a
+      font-size: 10vw
+    small
+      font-size: 5vw
 
 #intro
   background:  $intro-bg-col
