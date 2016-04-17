@@ -16,26 +16,23 @@
   <body class="<%= page_classes %>">
     <header id="header">
       <h1>
-        23 Bezirks&shy;museen
+        <a href="/">23 Bezirks&shy;museen</a>
         <small class="subtitle">… in circa 24 Wochen</small>
       </h1>
     </header>
     <div id="header-img"></div>
-    <section id="intro">
-      <%= partial "intro" %>
-    </section>
     <main id="main">
       <aside id="karte">
         <%= partial "wienkarte" %>
       </aside>
       <section id="content">
-        <article>
-          <% if current_article %>
+        <% if current_article %>
+          <article>
             <%= partial "article", locals: {article: current_article} %>
-          <% else %>
-            <%= yield %>
-          <% end %>
-        </article>
+          </article>
+        <% else %>
+          <%= yield %>
+        <% end %>
       </section>
     </main>
     <footer id="footer">

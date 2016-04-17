@@ -1,0 +1,11 @@
+-# = wrap_layout "layout" do
+= yield
+  -# %section.bezirksmuseum(id="bezirk-#{current_article.data.nr}")
+  -#   %h2= current_article.title
+  -#   %p.date Besucht am #{current_article.date.strftime("%d.%m.%Y")}.
+  -#   %p.wappen(title="#{current_article.data.wappen} von 5 Bezirkswappen")
+  -#     - current_article.data.wappen.times do
+  -#       %i.bts.bt-shield
+  -#     - (5 - current_article.data.wappen).times do
+  -#       %i.btl.bt-shield
+  -#
