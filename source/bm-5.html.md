@@ -9,3 +9,10 @@ wappen: 5
 Zugegeben, groß ist das Bezirksmuseum von Margareten nun wirklich nicht. Was nicht
 heißt, dass es nicht dem alten Kodex der Bezirksmuseen hält und ein, zwei Kuriositäten für den
 Besucher auf Lager hat.
+
+
+## Sehenswert
+
+<img src="/images/5-goering.jpg">
+
+Die Maße von Hermann Göring („Hermann Göring!“ – Zitat, ebd.)

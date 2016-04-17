@@ -7,4 +7,8 @@ cafe: Amerlingbeisl
 
 # Mit anderen Worten
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Das erste Museum mit Rätselrallye. Der bezirksspezifische Teil der Ausstellung bestand gefühlt aus zwei  Webstühlen. Dafür war die aktuelle Sonderausstellung
+
+## Fun Fact
+
+Während einer Renovierung der Depoträumlichkeiten Ende der 1970er-Jahre kam die Sammlung „[bis auf kärgliche Reste](http://www.bezirksmuseum.at/default/index.php?id=102&L=0%3Fid%3D192%3Fid%3D49%3Fid%3D57%3Fid%3D97%3Fid%3D137)“ abhanden.
