@@ -25,13 +25,12 @@
         <article class="article">
           <%= partial "article", locals: {article: current_article} %>
         </article>
-        <section id="karte">
-          <%= partial "wienkarte" %>
+        <section id="bezirke">
+          <%= partial "bezirke" %>
         </section>
-        <% else %>
-          <%= yield %>
-        <% end %>
-      </section>
+      <% else %>
+        <%= yield %>
+      <% end %>
     </main>
     <footer id="footer">
       <p id="footer-text">

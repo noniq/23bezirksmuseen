@@ -1,0 +1,5 @@
+= partial "wienkarte"
+
+%ul
+  - blog.articles.reverse.each do |article|
+    %li= link_to "#{article.data.bezirk}: #{article.title}", article.url
