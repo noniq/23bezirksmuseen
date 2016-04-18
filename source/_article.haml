@@ -1,10 +1,14 @@
-%section.bezirksmuseum(id="bezirk-#{article.data.nr}")
-  %h2= article.title
-  %p.date Besucht am #{article.date.strftime("%d.%m.%Y")}.
-  %p.wappen(title="#{article.data.wappen} von 5 Bezirkswappen")
-    - article.data.wappen.times do
-      %i.bts.bt-shield
-    - (5 - article.data.wappen).times do
-      %i.btl.bt-shield
+%h1 #{article.data.bezirk}: #{article.title}
 
-  = article.body
+#intro
+  .text= article.summary
+  %aside
+    %p.date Besucht am #{article.date.strftime("%d.%m.%Y")}
+    %p.wappen(title="#{article.data.wappen} von 5 Bezirkswappen")
+      - article.data.wappen.times do
+        %i.bts.bt-shield
+      - (5 - article.data.wappen).times do
+        %i.btl.bt-shield
+    %p.cafe Kaffee: #{article.data.cafe}
+
+= article.body

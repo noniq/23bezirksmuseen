@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="de">
   <head>
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta charset="utf-8">
@@ -15,20 +15,19 @@
 
   <body class="<%= page_classes %>">
     <header id="header">
-      <h1>
+      <p>
         <a href="/">23 Bezirks&shy;museen</a><br>
         <small class="subtitle">… in circa 24 Wochen</small>
-      </h1>
+      </p>
     </header>
     <main id="main">
       <% if current_article %>
-      <aside id="karte">
-        <%= partial "wienkarte" %>
-      </aside>
-      <section id="content">
-          <article>
-            <%= partial "article", locals: {article: current_article} %>
-          </article>
+        <article class="article">
+          <%= partial "article", locals: {article: current_article} %>
+        </article>
+        <section id="karte">
+          <%= partial "wienkarte" %>
+        </section>
         <% else %>
           <%= yield %>
         <% end %>

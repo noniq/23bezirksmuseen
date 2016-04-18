@@ -1,0 +1,44 @@
+
+.index #header
+  height: 40vw
+  border-top: 4px solid $header-bg-col
+  background: url("/images/header.jpg") no-repeat 50% 25%/cover $intro-bg-col
+  position: relative
+
+  p
+    position: absolute
+    display: block
+    padding: 0
+    max-width: none
+    margin: 0
+    bottom: 1rem
+    left: 0
+    right: 0
+    font-weight: normal
+
+    a, small
+      background: rgba(0, 0, 0, 0.6)
+      padding: 0 1rem 0 calc((100% - #{$content-max-width}) / 2 + 1rem)
+      display: inline-block
+      line-height: 1.25
+      color: #fff
+    a
+      background: rgba(0, 0, 0, 0.6)
+      font-size: 3.5rem
+    small
+      margin-top: 0.5em
+      line-height: 1.8
+      font-size: 1.25rem
+      font-style: italic
+
+@media(max-width: #{$content-max-width})
+  .index #header h1
+    a, small
+      padding-left: 1rem
+
+@media(max-width: 720px)
+  .index #header h1
+    a
+      font-size: 10vw
+    small
+      font-size: 5vw

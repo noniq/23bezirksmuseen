@@ -1,13 +1,15 @@
-$header-bg-col: #D13129
+$header-bg-col: #bb345e
 $intro-bg-col: #fff
-$footer-bg-col: #383133
+$footer-bg-col: #26282e
 
-$map-district-col: #C3BBBA
-$map-district-col-hover:#69080f
-$map-district-col-current: #D13129
+$headline-col: inherit
+
+$map-district-col: #8594ad
+$map-district-col-hover: #9a192e
+$map-district-col-current: #9a192e
 
 
-$content-max-width: 960px
+$content-max-width: 720px
 
 html
   font-size: 16px
@@ -24,94 +26,135 @@ body
   justify-content: space-around
   font-size: 16px
   font-family: adelle, Georgia, sans-serif
+  color: $footer-bg-col
 
-.index #header
-  height: 40vw
-  background: url("/images/header.jpg") no-repeat 50% 25%/cover $intro-bg-col
-  position: relative
-
-  h1
-    position: absolute
-    padding: 0
-    margin: 0
-    bottom: 1rem
-    left: 0
-    right: 0
-    color: #fff
-    font-weight: normal
-    a, small
-      background: rgba(0, 0, 0, 0.6)
-      padding: 0 1rem 0 calc((100% - #{$content-max-width}) / 2 + 1rem)
-      display: inline-block
-      line-height: 1.25
-
+#header
+  border-top: 4px solid $header-bg-col
+  background: url("/images/header.jpg") no-repeat 50% 2%/cover $header-bg-col
+  color: #fff
+  p
+    box-sizing: border-box
+    padding: 0.5rem 1rem
+    max-width: $content-max-width
+    margin: 0 auto
+    display: flex
+    justify-content: space-between
+    font-size: 1.5rem
+    line-height: 1.5rem
     a
-      background: rgba(0, 0, 0, 0.6)
       color: inherit
       text-decoration: none
-      font-size: 3.5rem
       &:hover
         text-decoration: underline
     small
-      line-height: 1.8
-      font-size: 1.25rem
-      font-style: italic
-
-@media(max-width: #{$content-max-width})
-  .index #header h1
-    a, small
-      padding-left: 1rem
-
-@media(max-width: 720px)
-  .index #header h1
-    a
-      font-size: 10vw
-    small
-      font-size: 5vw
-
-#intro
-  background:  $intro-bg-col
-  padding: 2rem 0
-  font-size: 1.3333rem
-  font-weight: 100
-  line-height: 1.6667
-  p
-    padding: 0 1rem
-    max-width: $content-max-width
-    margin: 0 auto
+      color: #6A678A
+      font-size: 0.75rem
 
 #main
   width: 100%
-  padding: 2rem 0 0
+  padding: 2rem 1rem
+  box-sizing: border-box
   max-width: $content-max-width
   min-height: 30rem
   align-self: center
-  flex-grow: 1
-  display: flex
-  flex-direction: row
-  flex-wrap: wrap
-  justify-content: space-between
-  align-items: flex-start
 
-#karte, #content
-  box-sizing: border-box
-  padding: 0 1rem 2rem
 
-#karte
-  width: 40%
-
-#content
-  width: 60%
   img
     max-width: 100%
 
-@media(max-width: 720px)
-  #main
-    justify-content: center
-  #karte, #content
-    width: 100%
-  #karte
-    max-width: 480px
+$border-col: #dddae0
+
+.article
+  h1, h2
+    color: $headline-col
+
+  h1
+    margin: 0 0 1rem
+
+  h2
+    margin: 3rem 0 1rem
+
+  p
+    line-height: 1.5
+    font-size: 1rem
+
+  a
+    color: $map-district-col
+    &:hover
+      color: $map-district-col-hover
+
+  > h2, > p
+    margin-left: calc(40% + 1rem)
+
+  #intro
+    display: flex
+    justify-content: space-between
+    flex-direction: row-reverse
+    border-top: 1px solid $border-col
+    .text
+      width: calc(60% - 1rem)
+    aside
+      border-top: 4px solid $border-col
+      padding-top: calc(0.75rem - 4px)
+      width: calc(40% - 1rem)
+      h3, p, .wappen
+        font-size: 1rem
+        font-weight: 200
+        margin: 0
+        line-height: 2
+
+  figure
+    display: flex
+    flex-direction: row-reverse
+    border-top: 1px solid $border-col
+    justify-content: space-between
+    figcaption
+      padding-top: 1rem
+      width: calc(60% - 1rem)
+    picture
+      border-top: 4px solid $border-col
+      padding-top: calc(1rem - 4px)
+      width: calc(40% - 1rem)
+
+@media(max-width: 600px)
+  .article
+    > p, > h2
+      margin-left: 0
+
+    #intro, figure
+      flex-direction: column-reverse
+      .text, aside, figcaption, picture
+        width: 100%
+#karte
+  margin-top: 4rem
+  padding-top: 4rem
+  border-top: 1px solid $border-col
+  // flex-grow: 1
+  // display: flex
+  // flex-direction: row
+  // flex-wrap: wrap
+  // justify-content: space-between
+  // align-items: flex-start
+//
+// #karte, #content
+//   box-sizing: border-box
+//   padding: 0 1rem 2rem
+//
+// #karte
+//   width: 40%
+//
+// #content
+//   width: 60%
+//   img
+//     max-width: 100%
+//
+// @media(max-width: 720px)
+//   #main
+//     justify-content: center
+//   #karte, #content
+//     width: 100%
+//   #karte
+//     max-width: 480px
 
 #footer
   background: $footer-bg-col
