@@ -11,7 +11,7 @@ wenn es um das Thema Eigenwahrnehmung geht. Anders als in vielen anderen Städte
 Österreichs, unterscheidet sich hier jeder Gemeindebezirk von seinem Nachbarn. Man kann aus
 Graz kommen, aber man kann nicht so einfach aus Wien kommen. Nein, man kommt aus Favoriten,
 man kommt aus Hitzing. Man kommt aus der Brigittenau.
-23 eigene Idenitäten*. Natürlich könnte jetzt an dieser Stelle ein Verweis auf
+23 eigene Identitäten*. Natürlich könnte jetzt an dieser Stelle ein Verweis auf
 Bourdieus Habitus sein. Man könnte die Milieus in Wien analysieren. Stadtethnologie at
 its finest. Aber nein, anstatt sich hinter Theorien und französischen Philosophen zu
 verstecken, sollte man lieber direkt sich ins Feld begeben. Und schon nach kurzer
