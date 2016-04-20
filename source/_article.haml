@@ -11,4 +11,4 @@
         %i.btl.bt-shield
     %p.cafe Kaffee: #{article.data.cafe}
 
-= article.body
+= article.render(layout: false, keep_separator: true).split(article.blog_options.summary_separator).last

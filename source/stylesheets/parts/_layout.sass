@@ -69,12 +69,12 @@ $border-col: #dddae0
     color: $headline-col
 
   h1
-    margin: 0 0 1rem
+    margin: 2rem 0 1rem
 
   h2
     margin: 3rem 0 1rem
 
-  p
+  p, figcaption
     line-height: 1.5
     font-size: 1rem
 
@@ -111,6 +111,8 @@ $border-col: #dddae0
     figcaption
       padding-top: 1rem
       width: calc(60% - 1rem)
+      > p:first-child
+        margin-top: 0
     picture
       border-top: 4px solid $border-col
       padding-top: calc(1rem - 4px)
