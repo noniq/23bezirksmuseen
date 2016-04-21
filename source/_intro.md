@@ -6,9 +6,9 @@ Man hasst Wien in ganz Österreich. Man hasst seine unfreundlichen Kellner. Man 
 die müffelnden U-Bahnen. Man hasst die Wiener. Oder etwa nicht?
 
 Ob man Wien mag oder nicht, sei jedem selbst überlassen zu entscheiden. Wien ist
-jedoch im Vergleich zu den restlichen österreichischen Hauptstädten ein Unikat
+jedoch im Vergleich zu den restlichen österreichischen Hauptstädten ein Unikat,
 wenn es um das Thema Eigenwahrnehmung geht. Anders als in vielen anderen Städten
-Österreichs, unterscheidet sich hier jeder Gemeindebezirk von seinem Nachbarn. Man kann aus
+Österreichs unterscheidet sich hier jeder Gemeindebezirk von seinem Nachbarn. Man kann aus
 Graz kommen, aber man kann nicht so einfach aus Wien kommen. Nein, man kommt aus Favoriten,
 man kommt aus Hietzing. Man kommt aus der Brigittenau.
 23 eigene Identitäten[^1]. Natürlich könnte jetzt an dieser Stelle ein Verweis auf
