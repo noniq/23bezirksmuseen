@@ -12,11 +12,20 @@ chronologisch aufsteigenden System das Objekt mit der Zahl eins als erstes gewä
 wird, sollte niemanden überraschen, sofern das österreichsche Schulsystem nicht
 gänzlich sein Auftrag verfehlt hat.
 
-Versteckt im sogenannten "Museumshof" des Alten Rathaus in der Wipplingergstraße 8,
-beziehungsweise Stoß im Himmel 2 (Dieser Name, der für Nicht-Wienerinnen und sicherlich
-auch für Wienerinnen etwas seltsam klingt, kommt übrigens vom Stoß-im-Himmel-Haus,
-welches sich hier befand. Der Name des Hauses geht auf den Besitzer "Hans Stoßamhimel
-[später aus als "Stoßamhimmel" geschrieben] zurück. Dieser sehr spezielle Nachname
-war wahrscheinlich ein Spitzname der auf die besondere Körpergröße anspielte.)
+Das Museum findet sich im sogenannten „Museumshof“ des Alten Rathaus in der Wipplingergstraße 8,
+Ecke Stoß im Himmel 2. Dieser etwas seltsam klingende Name kommt vom Stoß-im-Himmel-Haus,
+welches sich hier befand. Der Name des Hauses geht auf den Besitzer „Hans Stoßamhimel“ (sic!)
+zurück –  wahrscheinlich ein Spitzname, der auf die Körpergröße des Trägers anspielte.
 
-Schon wenn man das Museum betritt, wird einem klar, Wien hat Geschichte. Es werden
+READMORE
+
+## Kuriosum
+
+<figure>
+  <figcaption>
+    Eine Stickerei von Carolina Axmann aus dem Jahr 1854 zeigt neben einer Lucas-Arts-Adventure-artigen Stadtansicht auch eine Katze, die aussieht wie ein Experiment des verrückten Professors aus Day of the Tentacle.
+  </figcaption>
+  <picture>
+    <img src="/images/1-verkorkste-katze.jpg">
+  </picture>
+</figure>

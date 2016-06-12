@@ -58,7 +58,7 @@ READMORE
 
 <figure>
   <figcaption>
-    Die Perücke von <strike>Donald Trump</strike> <a href="https://de.wikipedia.org/wiki/Alexander_Girardi">Alexander Girardi</a>. Um Girardis geistige Gesundheit wurde übrigens <a href="https://de.wikipedia.org/wiki/Alexander_Girardi#Wirken">erbittert gestritten</a> – jegliche
+    Die Perücke von <strike>Donald Trump</strike> <a href="https://de.wikipedia.org/wiki/Alexander_Girardi">Alexander Girardi</a>. Um Girardis geistige Gesundheit wurde übrigens <a href="https://de.wikipedia.org/wiki/Alexander_Girardi#Wirken">erbittert gestritten</a> – Ähnlichkeiten zu lebenden Personen und Ereignissen sind rein zufällig.
   </figcaption>
   <picture>
     <img src="/images/6-girardi.jpg">
