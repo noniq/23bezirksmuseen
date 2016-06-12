@@ -7,12 +7,14 @@ class Backdrop
     @backdrop = $("<div class='lighter-box-backdrop' />").appendTo("body")
     unless @isNestedBackdrop
       $("body").addClass("lighter-box-has-backdrop")
-      $("body > *").wrapAll("<div class='lighter-box-aria-hide-body' aria-hidden='true' />")
+      @backdrop.prevAll().attr("aria-hidden", true)
+      #$("body > *").wrapAll("<div class='lighter-box-aria-hide-body' aria-hidden='true' />")
 
   remove: =>
+    @backdrop.prevAll().removeAttr("aria-hidden")
     @backdrop.remove()
     unless @isNestedBackdrop
-      $(".lighter-box-aria-hide-body > *").unwrap()
+      #$(".lighter-box-aria-hide-body > *").unwrap()
       $("body").removeClass("lighter-box-has-backdrop")
 
 
