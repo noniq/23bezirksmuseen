@@ -7,7 +7,7 @@ cafe: n/a
 ---
 
 Das Bezirksmuseum Landstraße ist im Verleich zu Innere Stadt oder Leopoldstadt
-eine kleine, feine Ansammlung an Kuriositäen. Hier wird neben dem klassichen
+eine kleine, feine Ansammlung an Kuriositäten. Hier wird neben dem klassichen
 Geschichtsteil auch auf, nun nenne wir es mal "zeitgenössische Kunst" wertgelegt.
 Neben einem weltmaschinenesquen Gebilde sind auch die weitere, sehr expressive
 Kunstwerke. Jedoch, das Museum spielte bei der Besichtigung nur die zweite Geige.
@@ -19,7 +19,7 @@ man sich fragen: ist das alles um was es hier geht? Dieses Projekt hat den Sinn,
 sich die Besonderheiten des Bezirkes anzunähern und das geht manchmal besser im
 Gespräch mit dessen Bewohnern, als nur Texte über historisch relevante Ereignisse
 zu lesen. So erklärte die Dame, dass sie früher einen künstlerischen Maler hatten,
-den sie gerne Ausstellen würden. "Der ist Bulgare, leider..." waren ihre Worte  
+den sie gerne Ausstellen würden. "Der ist Bulgare, leider..." waren ihre Worte
 "...lässt er von sich nichts mehr hören" fügte sie nach einer etwas irritierenden Pause an.
 
 Das Museum ansich ist verhältnismäßig klein, es bietet neben einem Veranstaltungsraum
