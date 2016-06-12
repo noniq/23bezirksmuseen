@@ -23,5 +23,5 @@ mehr Menschen den Geschmack der Bezirke näher zu bringen, ihn selbst zu testen.
 
 [^1]: Identität ist ein schwieriger Begriff. Besonders in Zeiten, in denen politische Gruppierungen
 sich diese Wort aneignen wollen. Hier wird der Begriff neutral verwendet. Ohne sich zu einer
-politischen Strömung einordnen zu wollen. Es geht um die Analyse von der Eigenwahrnehmung der
+politischen Strömung einordnen zu wollen. Es geht um die Analyse der Eigenwahrnehmung der
 Bezirke.
