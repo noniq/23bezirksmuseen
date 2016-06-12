@@ -14,3 +14,4 @@ gem 'middleman-livereload'
 gem 'middleman-blog'
 
 gem 'haml'
+gem 'middleman-simple-thumbnailer', github: 'noniq/middleman-simple-thumbnailer', ref: '721ea75'

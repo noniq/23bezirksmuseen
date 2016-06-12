@@ -28,18 +28,25 @@ activate :blog do |blog|
   blog.permalink = "bm-{nr}.html"
 end
 
+activate :middleman_simple_thumbnailer
+
 Time.zone = "Vienna"
 
 ###
 # Helpers
 ###
 
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def article_image(image, text)
+    %{
+<figure>
+  <figcaption>#{text}</figcaption>
+  <picture>
+    <a data-lightbox href="/images/#{image}">#{image_tag image, resize_to: '300x500'}</a>
+  </picture>
+</figure>}
+  end
+end
 
 # Build-specific configuration
 configure :build do
