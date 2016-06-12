@@ -1,0 +1,171 @@
+$lighter-box-margin: 24px !default
+$lighter-box-padding: 24px !default
+
+body.lighter-box-has-backdrop
+  // Damit lässt sich zwar auf Desktop-Browsern bequem das Scrolling „unter“ dem Modal verhindern, aber es hat zwei Probleme:
+  //  * Funktioniert nicht auf mobilen Browsern
+  //  * Blendet einen eventuell vorhandenen Scrollbar aus, dadurch kanns passieren, dass das Layout „hüpft“. (Bootstrap fixt das, indem sie die Scrollbar-Breite ausmessen und das Bodypadding dann explizit entsprechend anpassen – geht, ist aber recht aufwändig.)
+  //overflow: hidden
+
+// Only display content to screen readers
+// See: http://a11yproject.com/posts/how-to-hide-content/
+.lighter-box-sr-only
+  position: absolute
+  width: 1px
+  height: 1px
+  margin: -1px
+  padding: 0
+  overflow: hidden
+  clip: rect(0,0,0,0)
+  border: 0
+
+.lighter-box-backdrop
+  position: fixed
+  left: 0
+  top: 0
+  width: 100vw
+  height: 100vh
+  background: rgba(0, 0, 0, 0.6)
+
+.lighter-box-container
+  position: fixed
+  left: 0
+  top: 0
+  right: 0
+  bottom: 0
+  display: flex
+  align-items: center
+  justify-content: center
+
+.lighter-box-modal
+  position: relative
+  background: #fff
+  padding: $lighter-box-padding
+  box-sizing: border-box
+  min-width: 120px // Damit der (absolut positionierte) Spinner nicht breiter ist als die (noch leere) Lightbox
+  min-height: 100px // Damit der (absolut positionierte) Spinner nicht breiter ist als die (noch leere) Lightbox
+  max-width: calc(100vw - #{2 * $lighter-box-margin})
+  max-height: calc(100vh - #{2 * $lighter-box-margin})
+  overflow-y: auto
+
+.lighter-box-close-button
+  position: absolute
+  top: 0px
+  right: 0px
+  box-sizing: border-box
+  width: 24px
+  height: 24px
+  border: none
+  padding: 0
+  background: transparent
+  text-align: center
+  font: bold 18px/20px sans-serif
+  color: #ccc
+  cursor: pointer
+  &:hover, &:focus
+    color: #555
+
+.lighter-box-prev-link, .lighter-box-next-link
+  $width: ($lighter-box-margin + $lighter-box-padding) * 0.9
+  $height: $width
+  position: absolute
+  top: calc(50% - #{$height / 2})
+  width: $width
+  height: $height
+  text-decoration: none
+  font-size: #{$height * 0.8}
+  line-height: #{$height * 0.9}
+  background: rgba(52, 52, 52, 0.85)
+  color: #ccc
+  text-align: center
+  > span
+    font-weight: bold
+    color: inherit
+  &:hover, &:focus
+    color: #fff
+    background: rgba(22, 22, 22, 0.9)
+    text-decoration: none
+
+.lighter-box-prev-link
+  left: 0px
+.lighter-box-next-link
+  right: 0px
+
+.lighter-box-image
+  display: block
+  margin: auto
+  max-width: 100%
+  min-height: 30px
+
+.lighter-box-figcaption
+  margin: 20px 0 0
+  text-align: center
+  line-height: 1.2
+  &.empty-caption
+    margin-top: 0
+
+
+.lighter-box-spinner
+  $width: 80px
+  $height: 55px
+  box-sizing: border-box
+  padding: 15px
+  position: fixed
+  background: rgba(50, 50, 50, 0.8)
+  border-radius: 4px
+  box-shadow: 0 0 3px 1px rgba(255, 255, 255, 0.25)
+  width: $width
+  height: $height
+  left: calc(50% - #{$width / 2})
+  top: calc(50% - #{$height / 2})
+  text-align: center
+  font-size: 10px
+  &:focus
+    outline: none
+
+  > div
+    background-color: #eee
+    height: 100%
+    width: 5px
+    margin: 0 1px
+    display: inline-block
+    -webkit-animation: lighter-box-loader-anim 1.2s infinite ease-in-out
+    animation: lighter-box-loader-anim 1.2s infinite ease-in-out
+
+  .rect2
+    -webkit-animation-delay: -1.1s
+    animation-delay: -1.1s
+
+  .rect3
+    -webkit-animation-delay: -1.0s
+    animation-delay: -1.0s
+
+  .rect4
+    -webkit-animation-delay: -0.9s
+    animation-delay: -0.9s
+
+  .rect5
+    -webkit-animation-delay: -0.8s
+    animation-delay: -0.8s
+
+@-webkit-keyframes lighter-box-loader-anim
+  0%, 40%, 100%
+    -webkit-transform: scaleY(0.5)
+
+  20%
+    -webkit-transform: scaleY(1)
+
+@keyframes lighter-box-loader-anim
+  0%, 40%, 100%
+    transform: scaleY(0.5)
+    -webkit-transform: scaleY(0.5)
+
+  20%
+    transform: scaleY(1)
+    -webkit-transform: scaleY(1)
+
+
+.lighter-box-modal.ie9
+  display: inline-block
+  width: auto
+  margin: 0
