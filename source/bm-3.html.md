@@ -6,8 +6,6 @@ wappen: 2
 cafe: n/a
 ---
 
-# Bulgare, umständehalber.
-
 Das Bezirksmuseum Landstraße ist im Verleich zu Innere Stadt oder Leopoldstadt
 eine kleine, feine Ansammlung an Kuriositäen. Hier wird neben dem klassichen
 Geschichtsteil auch auf, nun nenne wir es mal "zeitgenössische Kunst" wertgelegt.

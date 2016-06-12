@@ -6,7 +6,6 @@ wappen: 5
 cafe: n/a
 ---
 
-
 Das Bezirksmuseum Wieden ist das erste Museum das sich nicht nur aus einem Museum zusammensetzt,
 sondern gleich aus drei. Neben dem Bezirksmuseum befindet sich hier auch das Tröpferlbadmuseum und das
 Rauchfangkehrermuseum (welches wir leider nicht besichtigen konnten, da es an diesem Tag geschlossen war).

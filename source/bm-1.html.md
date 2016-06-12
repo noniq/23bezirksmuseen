@@ -6,8 +6,6 @@ wappen: 3
 cafe: n/a (dafür einen Krapfen im Museum geschenkt bekommen)
 ---
 
-# Kennen Sie den Herrn Lueger?
-
 Den Start der Reise durch die Wiener Geschichte und vor allem der Bezirksmuseen
 machte das Bezirksmuseum des ersten Bezirks. Diese Tatsache, dass bei einem
 chronologisch aufsteigenden System das Objekt mit der Zahl eins als erstes gewählt
