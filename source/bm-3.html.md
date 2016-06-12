@@ -1,7 +1,9 @@
 ---
-title: 3., Landstraße
+title: Bulgare, umständehalber
+bezirk: 3., Landstraße
 date: 2016-03-06
 wappen: 2
+cafe: n/a
 ---
 
 # Bulgare, umständehalber.

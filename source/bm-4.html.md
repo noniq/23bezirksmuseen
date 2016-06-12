@@ -3,6 +3,7 @@ title: Das Sparschwein der Karlich
 bezirk: 4., Wieden
 date: 2016-03-08
 wappen: 5
+cafe: n/a
 ---
 
 
@@ -12,7 +13,7 @@ Rauchfangkehrermuseum (welches wir leider nicht besichtigen konnten, da es an di
 Ein weiteres Novum war die Tatsache, dass wir gänzlich ignoriert wurden von den Mitarbeitern des Museums. Waren es
 sonst sehr intensive Gespräche die sich mit den Mitarbeitern anboten, fanden wir hier wenig Beachtung. Eigentlich schade,
 bietet doch gerade die Unterhaltung mit den Mitarbeitern meist wichtige Informationen über die ARGE, den Museumsalltag
-und natürlich den Bezirk mit seinen Bewohnern. 
+und natürlich den Bezirk mit seinen Bewohnern.
 
 READMORE
 

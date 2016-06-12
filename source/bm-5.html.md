@@ -3,6 +3,7 @@ title: Görings modischer Bernsteintresor
 bezirk: 5., Margareten
 date: 2016-03-17
 wappen: 5
+cafe: Café-Konditorei Gumpendorf
 ---
 
 Zugegeben, groß ist das Bezirksmuseum von Margareten nun wirklich nicht. Was nicht
@@ -21,5 +22,3 @@ READMORE
     <img src="/images/5-goering.jpg">
   </picture>
 </figure>
-
-

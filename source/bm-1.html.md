@@ -1,7 +1,9 @@
 ---
-title: 1., Innere Stadt
+title: Kennen Sie den Herrn Lueger?
+bezirk: 1., Innere Stadt
 date: 2016-02-09
 wappen: 3
+cafe: n/a (dafür einen Krapfen im Museum geschenkt bekommen)
 ---
 
 # Kennen Sie den Herrn Lueger?
