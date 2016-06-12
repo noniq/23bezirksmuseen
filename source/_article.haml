@@ -9,6 +9,11 @@
         %i.bts.bt-shield
       - (5 - article.data.wappen).times do
         %i.btl.bt-shield
-    %p.cafe Kaffee: #{article.data.cafe}
+    %p.cafe
+      Kaffee:
+      - if article.data.link
+        %a(href="#{article.data.link}")= article.data.cafe
+      - else
+        = article.data.cafe
 
 = article.render(layout: false, keep_separator: true).split(article.blog_options.summary_separator).last
