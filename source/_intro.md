@@ -14,7 +14,7 @@ man kommt aus Hietzing. Man kommt aus der Brigittenau.
 23 eigene Identitäten[^1]. Natürlich könnte jetzt an dieser Stelle ein Verweis auf
 Bourdieus Habitus sein. Man könnte die Milieus in Wien analysieren. Stadtethnologie at
 its finest. Aber nein, anstatt sich hinter Theorien und französischen Philosophen zu
-verstecken, sollte man lieber direkt sich ins Feld begeben. Und schon nach kurzer
+verstecken, sollte man sich lieber direkt ins Feld begeben. Und schon nach kurzer
 Zeit findet man all die faszinierenden Geschmäcker, die Wien zu bieten hat. Einer
 der geschmackvollsten Orte in jedem Bezirk ist das Bezirksmuseum. Jeder Bezirk hat eins,
 mal größer, mal kleiner. Mal historisch, mal kurios. Aber immer einzigartig. Genau diese
