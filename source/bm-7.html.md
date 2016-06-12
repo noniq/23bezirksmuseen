@@ -4,6 +4,7 @@ bezirk: 7., Neubau
 date: 2016-04-14
 wappen: 3
 cafe: Amerlingbeisl
+link: http://www.amerlingbeisl.at/
 ---
 
 Das erste Museum mit Rätselrallye. Der bezirksspezifische Teil der Ausstellung bestand gefühlt aus zwei  Webstühlen. Dafür war die aktuelle Sonderausstellung

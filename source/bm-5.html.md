@@ -4,6 +4,7 @@ bezirk: 5., Margareten
 date: 2016-03-17
 wappen: 5
 cafe: Café-Konditorei Gumpendorf
+link: https://www.falter.at/lokal/5258/cafe-konditorei-gumpendorf
 ---
 
 Zugegeben, groß ist das Bezirksmuseum von Margareten nun wirklich nicht. Was nicht

@@ -4,6 +4,7 @@ bezirk: 6., Mariahilf
 date: 2016-04-10
 wappen: 5
 cafe: Café-Konditorei Gumpendorf
+link: https://www.falter.at/lokal/5258/cafe-konditorei-gumpendorf
 ---
 
 Bei unserem ersten Versuch hat das Museum, untergebracht in einem ehemaligen [Kontor](https://de.wikipedia.org/wiki/Kontor) der Wiener Arbeiterkrankenkasse, geschlossen: Osterferien. Der zweite Anlauf drei Wochen später klappt und belohnt uns mit einer sehenswerten Ausstellung.

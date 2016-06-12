@@ -4,6 +4,7 @@ date: 2016-04-17
 bezirk: 8., Josefstadt
 wappen: 4
 cafe: Café Eiles
+link: http://www.cafe-eiles.at/
 ---
 
 Nein, kommen wir nicht: Obwohl gleichzeitig im Saal des Bezirksmuseums das genannte Werk als Klassik-Musical für Kinder aufgeführt wird, beschränken wir unseren Besuch auf die Ausstellungssäle. Die Live-Hintergrundmusik erweist sich als charmante Untermalung, und vereinzelte verirrte Kinder („Ist da grad ein kleines Mädl in die Künstlergarderobe gerannt? Ham Sie’s vielleicht gsehn?“) stören nicht nachhaltig.
